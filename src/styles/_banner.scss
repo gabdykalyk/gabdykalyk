@@ -1,0 +1,35 @@
+.banner {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    .logo__main {
+        width: 50px;
+    }
+    
+    ul {
+        display: flex;
+        margin: 0;
+
+        li {
+            border-bottom: 2px solid rgba(0, 0, 0, 0);
+            transition: all .3s linear;
+
+            &:hover {
+                border-bottom: 2px solid #3e64ff;
+            }
+
+            a {
+                text-decoration: none;
+                color: unset;
+            }
+        }
+
+        li:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}
