@@ -303,26 +303,107 @@ template {
 [hidden] {
   display: none; }
 
-.banner .menu {
+.banner {
+  position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 20px; }
-.banner .logo__main {
-  width: 50px; }
-.banner ul {
-  display: flex;
-  margin: 0; }
-  .banner ul li {
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-    transition: all .3s linear; }
-    .banner ul li:hover {
-      border-bottom: 2px solid #3e64ff; }
-    .banner ul li a {
-      text-decoration: none;
-      color: unset; }
-  .banner ul li:not(:last-child) {
-    margin-right: 40px; }
+  height: 100vh; }
+  .banner__header {
+    position: absolute;
+    top: 0; }
+  .banner .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px; }
+  .banner .logo__main {
+    width: 50px; }
+  .banner ul {
+    display: flex;
+    margin: 0; }
+    .banner ul li {
+      border-bottom: 2px solid rgba(0, 0, 0, 0);
+      transition: all .3s linear; }
+      .banner ul li:hover {
+        border-bottom: 2px solid #3e64ff; }
+      .banner ul li a {
+        text-decoration: none;
+        color: unset; }
+    .banner ul li:not(:last-child) {
+      margin-right: 40px; }
+  .banner__title {
+    text-align: center; }
+    .banner__title .banner__upper {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #3e64ff;
+      font-weight: 800;
+      margin: 0; }
+    .banner__title .banner__name {
+      font-size: 60px;
+      font-weight: 800;
+      margin: 0; }
+    .banner__title .banner__prof {
+      font-size: 32px; }
+  .banner__overlay {
+    width: 50%;
+    height: 100%;
+    background: #3e64ff;
+    position: absolute;
+    opacity: .1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.about__photo {
+  background-image: url("../assets/images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+.about__info {
+  padding: 48px; }
+.about__title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+.about__prof {
+  color: #999999;
+  margin-bottom: 20px; }
+.about__block {
+  margin-bottom: 20px;
+  display: flex; }
+.about span {
+  color: #999999;
+  display: inline-block; }
+.about span:first-child {
+  color: #000000;
+  font-weight: 700;
+  min-width: 140px;
+  display: inline-block; }
+
+.resume {
+  margin-top: 50px; }
+  .resume__title {
+    font-size: 30px;
+    color: #3e64ff;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .resume img {
+    width: 50px;
+    max-height: 50px; }
+  .resume__text {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+    margin-bottom: 30px; }
+    .resume__text .resume__year {
+      font-weight: 700;
+      color: #3e64ff; }
+    .resume__text .resume__degree {
+      font-size: 24px;
+      font-weight: 700; }
+    .resume__text .resume__prof {
+      color: #999999; }
 
 *,
 *::before,
@@ -330,6 +411,9 @@ template {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
 
 ul,
 li {

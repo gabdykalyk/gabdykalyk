@@ -1,0 +1,35 @@
+.resume {
+    margin-top: 50px;
+
+    &__title {
+        font-size: 30px;
+        color: #3e64ff;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 50px;
+        max-height: 50px;
+    }
+
+    &__text {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+
+        .resume__year {
+            font-weight: 700;
+            color: #3e64ff;
+        }
+
+        .resume__degree {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .resume__prof {
+            color: #999999;
+        }
+    }
+}

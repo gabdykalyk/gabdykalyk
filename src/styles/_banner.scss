@@ -1,4 +1,15 @@
 .banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__header {
+        position: absolute;
+        top: 0;
+    }
+
     .menu {
         display: flex;
         align-items: center;
@@ -31,5 +42,39 @@
         li:not(:last-child) {
             margin-right: 40px;
         }
+    }
+
+    &__title {
+        text-align: center;
+
+        .banner__upper {
+            text-transform: uppercase;
+            font-size: 16px;
+            color: #3e64ff;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .banner__name {
+            font-size: 60px;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .banner__prof {
+            font-size: 32px;
+        }
+    }
+
+    &__overlay {
+        width: 50%;
+        height: 100%;
+        background: #3e64ff;
+        position: absolute;
+        opacity: .1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 }

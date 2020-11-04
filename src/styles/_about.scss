@@ -1,0 +1,43 @@
+.about {
+    // &__image {
+    //     width: 555px;
+    // }
+
+    &__photo {
+        background-image: url('../assets/images/about.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__info {
+        padding: 48px;
+    }
+
+    &__title {
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__prof {
+        color: #999999;
+        margin-bottom: 20px;
+    }
+
+    &__block {
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    span {
+        color: #999999;
+        display: inline-block;
+    }
+
+    span:first-child {
+        color: #000000;
+        font-weight: 700;
+        min-width: 140px;
+        display: inline-block;
+    }
+}

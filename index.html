@@ -7,12 +7,15 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 
 <body>
     <div class="banner">
-        <div class="container">
+        <div class="container banner__header">
             <div class="menu">
                 <div class="logo">
                     <img class="logo__main" src="./src/assets/images/tooth.png" alt="">
@@ -28,8 +31,143 @@
                 </nav>
             </div>
         </div>
-    </div>
+        <div class="banner__title">
+            <h2 class="banner__upper">
+                Привет! Меня зовут
+            </h2>
+            <h1 class="banner__name">
+                Габдыкалык Орал
+            </h1>
+            <h2 class="banner__prof">
+                Я врач-стоматолог
+            </h2>
+        </div>
+        <div class="banner__overlay">
 
+        </div>
+    </div>
+    <div class="container">
+        <div class="about row">
+            <div class="about__photo col-md-6">
+                <!-- <img class="about__image" src="./src/assets/images/about.jpg" alt=""> -->
+            </div>
+            <div class="about__info col-md-6">
+                <div class="about__title">
+                    Обо мне
+                </div>
+                <div class="about__prof">
+                    Врач-стоматолог <br>
+                    Терапия, Хирургия, Протезирование
+                </div>
+                <div class="about__block">
+                    <span>
+                        Имя:
+                    </span>
+                    <span>
+                        Габдыкалык Орал
+                    </span>
+                </div>
+                <div class="about__block">
+                    <span>
+                        Место работы:
+                    </span>
+                    <span>
+                        Стоматологическая клиника профессора Рузуддинова
+                    </span>
+                </div>
+                <div class="about__block">
+                    <span>
+                        Телефон:
+                    </span>
+                    <span>
+                        +7 (700) 141-19-62
+                    </span>
+                </div>
+                <div class="about__block">
+                    <span>
+                        Email:
+                    </span>
+                    <span>
+                        gabdykalyk@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="resume">
+            <div class="resume__title">
+                Резюме
+            </div>
+            <div class="resume__info row">
+                <div class="resume__logo col-md-1">
+                    <img src="./src/assets/images/asf.png" alt="">
+                </div>
+                <div class="resume__text col-md-11">
+                    <div class="resume__year">
+                        2014 - 2019
+                    </div>
+                    <div class="resume__degree">
+                        Бакалавриат Казахского Национального Медицинского Университета
+                        имени С.Д.Асфендиярова
+                    </div>
+                    <div class="resume__prof">
+                        Бакалавр Стоматологии
+                    </div>
+                </div>
+            </div>
+            <div class="resume__info row">
+                <div class="resume__logo col-md-1">
+                    <img src="./src/assets/images/asf.png" alt="">
+                </div>
+                <div class="resume__text col-md-11">
+                    <div class="resume__year">
+                        2019 - 2020
+                    </div>
+                    <div class="resume__degree">
+                        Интернатура Казахского Национального Медицинского Университета
+                        имени С.Д.Асфендиярова
+                    </div>
+                    <div class="resume__prof">
+                        Врач-стоматолог общей практики <br>
+                        Взрослая и детская
+                    </div>
+                </div>
+            </div>
+            <div class="resume__info row">
+                <div class="resume__logo col-md-1">
+                    <img src="./src/assets/images/central.png" alt="">
+                </div>
+                <div class="resume__text col-md-11">
+                    <div class="resume__year">
+                        2019 - 2020
+                    </div>
+                    <div class="resume__degree">
+                        Центральная стоматологическая поликлиника города Алматы
+                    </div>
+                    <div class="resume__prof">
+                        Детская терапия и хирургия
+                    </div>
+                </div>
+            </div>
+            <div class="resume__info row">
+                <div class="resume__logo col-md-1">
+                    <img src="./src/assets/images/unnamed.png" alt="">
+                </div>
+                <div class="resume__text col-md-11">
+                    <div class="resume__year">
+                        2019 - 2020
+                    </div>
+                    <div class="resume__degree">
+                        Стоматологическая клиника профессора Рузуддинова
+                    </div>
+                    <div class="resume__prof">
+                        Врач-стоматолог, терапевт, хирург, ортопед
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -37,5 +175,4 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
