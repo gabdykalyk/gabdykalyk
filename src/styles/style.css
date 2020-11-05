@@ -360,7 +360,8 @@ template {
 .about__photo {
   background-image: url("../assets/images/new.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 .about__info {
   padding: 48px; }
 .about__title {
@@ -404,6 +405,51 @@ template {
       font-weight: 700; }
     .resume__text .resume__prof {
       color: #999999; }
+
+.features {
+  margin-top: 50px;
+  padding-bottom: 50px; }
+  .features__main {
+    margin-top: 50px; }
+  .features__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700; }
+  .features__item {
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 2em;
+    transition: all .2s ease-in-out;
+    cursor: pointer; }
+    .features__item:hover {
+      background-color: #3e64ff; }
+  .features__heading {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 20px; }
+    .features__heading::before {
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      right: 0;
+      content: '';
+      width: 30px;
+      height: 1px;
+      background: #3e64ff;
+      margin: 0 auto;
+      transition: all .2s ease-in-out; }
+  .features__icon i::before {
+    font-size: 60px;
+    transition: all .2s ease-in-out;
+    margin: 0; }
+  .features__info {
+    color: rgba(0, 0, 0, 0.7); }
+  .features .features__item:hover > .features__icon > i::before {
+    color: #ffffff; }
+  .features .features__item:hover > .features__heading::before {
+    background: #000000; }
 
 *,
 *::before,
