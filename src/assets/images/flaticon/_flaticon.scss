@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 05/11/2020 17:18
+    Creation date: 07/11/2020 18:33
     */
 
     @font-face {
@@ -41,8 +41,24 @@
 .flaticon-tick:before { content: "\f101"; }
 .flaticon-book:before { content: "\f102"; }
 .flaticon-24-hours:before { content: "\f103"; }
+.flaticon-telegram:before { content: "\f104"; }
+.flaticon-instagram:before { content: "\f105"; }
+.flaticon-whatsapp:before { content: "\f106"; }
+.flaticon-facebook-circular-logo:before { content: "\f107"; }
+.flaticon-long-right-arrow:before { content: "\f108"; }
+.flaticon-maps-and-flags:before { content: "\f109"; }
+.flaticon-phone-call:before { content: "\f10a"; }
+.flaticon-envelope:before { content: "\f10b"; }
     
     $font-Flaticon-stethoscope: "\f100";
     $font-Flaticon-tick: "\f101";
     $font-Flaticon-book: "\f102";
     $font-Flaticon-24-hours: "\f103";
+    $font-Flaticon-telegram: "\f104";
+    $font-Flaticon-instagram: "\f105";
+    $font-Flaticon-whatsapp: "\f106";
+    $font-Flaticon-facebook-circular-logo: "\f107";
+    $font-Flaticon-long-right-arrow: "\f108";
+    $font-Flaticon-maps-and-flags: "\f109";
+    $font-Flaticon-phone-call: "\f10a";
+    $font-Flaticon-envelope: "\f10b";

@@ -451,6 +451,89 @@ template {
   .features .features__item:hover > .features__heading::before {
     background: #000000; }
 
+.contact {
+  margin-top: 50px;
+  padding-bottom: 50px; }
+  .contact__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px; }
+  .contact__item {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contact__icon {
+    width: 100px;
+    height: 100px;
+    background: #3e64ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px; }
+    .contact__icon i {
+      color: #ffffff; }
+    .contact__icon i::before {
+      font-size: 30px;
+      margin: 0; }
+  .contact__name {
+    font-size: 18px;
+    font-weight: 600; }
+  .contact__info {
+    color: #999999;
+    margin-top: 20px; }
+
+.feedback__photo {
+  background-image: url("../assets/images/new.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+.feedback__info {
+  background: #f8f9fa; }
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+.feedback .form-control {
+  height: 52px; }
+.feedback form {
+  margin-top: 30px; }
+.feedback textarea.form-control {
+  resize: none;
+  height: 200px; }
+.feedback .btn {
+  border-radius: 40px; }
+
+.footer {
+  background-color: #000000;
+  color: #ffffff; }
+  .footer__title {
+    font-size: 22px;
+    font-weight: 600; }
+  .footer__text {
+    color: rgba(255, 255, 255, 0.7); }
+  .footer__social {
+    display: flex;
+    width: 100%; }
+    .footer__social a {
+      background: rgba(255, 255, 255, 0.1);
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px; }
+      .footer__social a i::before {
+        margin: 0; }
+  .footer__link i::before {
+    margin: 0;
+    margin-right: 10px; }
+
 *,
 *::before,
 *::after {

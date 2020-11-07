@@ -1,0 +1,37 @@
+.feedback {
+    &__photo {
+        background-image: url('../assets/images/new.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__info {
+        background: #f8f9fa;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control {
+        height: 52px;
+
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    textarea.form-control {
+        resize: none;
+        height: 200px;
+    }
+    
+    .btn {
+        border-radius: 40px;
+    }
+}

@@ -1,0 +1,38 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+
+    &__title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__text {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &__social {
+        display: flex;
+        width: 100%;
+
+        a {
+            background: rgba(255, 255, 255, 0.1);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+
+            i::before {
+                margin: 0;
+            }
+        }
+    }
+
+    &__link i::before {
+        margin: 0;
+        margin-right: 10px;
+    }
+}
