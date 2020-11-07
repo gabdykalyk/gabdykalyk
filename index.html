@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="banner">
+    <div class="banner" id="main">
         <div class="container banner__header">
             <div class="menu">
                 <div class="logo">
@@ -25,13 +25,31 @@
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li><a href="">Главная</a></li>
-                        <li><a href="">Обо мне</a></li>
-                        <li><a href="">Резюме</a></li>
-                        <li><a href="">Навыки</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#resume">Резюме</a></li>
+                        <li><a href="#features">Навыки</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo">
+                        <img class="logo__main" src="./src/assets/images/tooth.png" alt="">
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#about">Обо мне</a></li>
+                            <li><a href="#resume">Резюме</a></li>
+                            <li><a href="#features">Навыки</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
         <div class="banner__title">
@@ -49,7 +67,7 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="about">
         <div class="about row">
             <div class="about__photo col-md-6">
             </div>
@@ -96,7 +114,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="resume">
         <div class="resume">
             <div class="resume__title">
                 Резюме
@@ -170,7 +188,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="features">
         <div class="features">
             <div class="features__title">
                 Почему стоит обратиться ко мне
@@ -238,7 +256,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="contacts">
         <div class="contact">
             <div class="contact__title">
                 Обращайтесь по любым
@@ -359,19 +377,19 @@
                         </div>
                         <div class="footer__text mt-4">
                             <div class="footer__link">
-                                <i class="flaticon-long-right-arrow"></i> Главная
+                                <i class="flaticon-long-right-arrow"></i><a href="#main">Главная</a>
                             </div>
                             <div class="footer__link">
-                                <i class="flaticon-long-right-arrow"></i> Обо мне
+                                <i class="flaticon-long-right-arrow"></i><a href="#about">Обо мне</a>
                             </div>
                             <div class="footer__link">
-                                <i class="flaticon-long-right-arrow"></i> Резюме
+                                <i class="flaticon-long-right-arrow"></i><a href="#resume">Резюме</a>
                             </div>
                             <div class="footer__link">
-                                <i class="flaticon-long-right-arrow"></i> Навыки
+                                <i class="flaticon-long-right-arrow"></i><a href="#features">Навыки</a>
                             </div>
                             <div class="footer__link">
-                                <i class="flaticon-long-right-arrow"></i> Контакты
+                                <i class="flaticon-long-right-arrow"></i><a href="#contacts">Контакты</a>
                             </div>
                         </div>
                     </div>

@@ -533,6 +533,43 @@ template {
   .footer__link i::before {
     margin: 0;
     margin-right: 10px; }
+  .footer a {
+    text-decoration: none;
+    color: unset;
+    transition: all .2s linear; }
+    .footer a:hover {
+      color: #ffffff;
+      text-decoration: underline; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  z-index: 2; }
+  .header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .header .logo__main {
+    width: 50px; }
+  .header ul {
+    display: flex;
+    margin: 0; }
+    .header ul li {
+      border-bottom: 2px solid rgba(0, 0, 0, 0);
+      transition: all .3s linear; }
+      .header ul li:hover {
+        border-bottom: 2px solid #3e64ff; }
+      .header ul li a {
+        text-decoration: none;
+        color: unset; }
+    .header ul li:not(:last-child) {
+      margin-right: 40px; }
 
 *,
 *::before,
@@ -540,6 +577,9 @@ template {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   font-family: 'Poppins', sans-serif; }

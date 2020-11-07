@@ -35,4 +35,15 @@
         margin: 0;
         margin-right: 10px;
     }
+
+    a {
+        text-decoration: none;
+        color: unset; 
+        transition: all .2s linear;
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
 }
