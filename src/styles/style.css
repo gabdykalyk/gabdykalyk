@@ -542,6 +542,7 @@ template {
       text-decoration: underline; }
 
 .header {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -591,5 +592,12 @@ li {
 a {
   text-decoration: none;
   color: unset; }
+
+.visible {
+  display: block; }
+
+.active a {
+  border-bottom: 3px solid #3e64ff;
+  color: #3e64ff; }
 
 /*# sourceMappingURL=style.css.map */

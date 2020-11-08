@@ -33,3 +33,12 @@ a {
     text-decoration: none;
     color: unset;
 }
+
+.visible {
+    display: block;
+}
+
+.active a {
+  border-bottom: 3px solid #3e64ff;
+  color: #3e64ff;
+}
