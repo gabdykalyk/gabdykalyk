@@ -42,3 +42,32 @@ a {
   border-bottom: 3px solid #3e64ff;
   color: #3e64ff;
 }
+
+#resume,
+#features,
+#contacts {
+    height: 30px;
+}
+
+#about {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
+
+#typing {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 200;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

@@ -464,7 +464,17 @@ template {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    transition: all .2s linear;
+    cursor: pointer; }
+    .contact__item:hover {
+      background-color: #3e64ff; }
+    .contact__item:hover > .contact__icon {
+      background-color: #ffffff; }
+    .contact__item:hover > .contact__icon i {
+      color: #3e64ff; }
+    .contact__item:hover > .contact__info {
+      color: #ffffff; }
   .contact__icon {
     width: 100px;
     height: 100px;
@@ -485,6 +495,9 @@ template {
   .contact__info {
     color: #999999;
     margin-top: 20px; }
+  .contact a {
+    color: unset;
+    text-decoration: none; }
 
 .feedback__photo {
   background-image: url("../assets/images/new.jpg");
@@ -599,5 +612,33 @@ a {
 .active a {
   border-bottom: 3px solid #3e64ff;
   color: #3e64ff; }
+
+#resume,
+#features,
+#contacts {
+  height: 30px; }
+
+#about {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  bottom: 0; }
+
+#typing {
+  font-size: 40px;
+  font-weight: 400; }
+
+.typed-cursor {
+  opacity: 1;
+  font-weight: 200;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */
