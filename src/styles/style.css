@@ -391,6 +391,8 @@ template {
     color: #3e64ff;
     font-weight: 700;
     margin-bottom: 20px; }
+  .resume__info {
+    text-align: center; }
   .resume img {
     width: 50px;
     max-height: 50px; }
@@ -601,7 +603,10 @@ template {
     right: 0;
     background-color: #000000;
     padding-top: 10px;
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+
+  .features__item-second {
+    margin-top: 3rem !important; } }
 .header__mob-container {
   display: flex;
   justify-content: space-between; }
@@ -614,10 +619,35 @@ template {
     padding-top: 20px; }
     .header-mob-menu .nav-mob ul li {
       padding-bottom: 16px; }
+  .header-mob-menu a:hover {
+    background-color: red; }
 
 .visible {
   display: block; }
 
+.contacts-mob {
+  margin-top: 2rem !important; }
+
+@media (max-width: 767px) {
+  .contacts-mob-second {
+    margin-top: 2rem !important; } }
+@media (max-width: 576px) {
+  .footer .footer__item {
+    text-align: center; }
+
+  .footer__social {
+    justify-content: center; } }
+@media (max-width: 470px) {
+  .banner__title .banner__name,
+  .features__title,
+  .contact__title {
+    font-size: 40px; }
+
+  .about__info {
+    padding: 20px; }
+
+  .about span:first-child {
+    min-width: 90px; } }
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers

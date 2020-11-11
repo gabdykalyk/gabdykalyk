@@ -17,6 +17,10 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .features__item-second {
+        margin-top: 3rem!important;
+    }
 }
 
 
@@ -37,8 +41,48 @@
             }
         }
     }
+
+    a:hover {
+        background-color: red;
+    }
 }
 
 .visible {
     display: block;
+}
+
+.contacts-mob {
+    margin-top: 2rem!important;
+}
+
+@media (max-width: 767px) {
+    .contacts-mob-second {
+        margin-top: 2rem!important;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer .footer__item {
+        text-align: center;
+    }
+
+    .footer__social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 470px) {
+    .banner__title .banner__name,
+    .features__title,
+    .contact__title {
+        font-size: 40px;
+    }
+
+    .about__info {
+        padding: 20px;
+    }
+
+    .about span:first-child {
+        min-width: 90px;
+    }
 }
