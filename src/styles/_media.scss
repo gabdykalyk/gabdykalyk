@@ -19,8 +19,26 @@
     }
 }
 
+
 .header__mob-container {
     display: flex;
     justify-content: space-between;
 }
 
+.header-mob-menu {
+    display: none;
+    .nav-mob {
+        ul {
+            display: block;
+            color: #ffffff;
+            padding-top: 20px;
+            li {
+                padding-bottom: 16px;
+            }
+        }
+    }
+}
+
+.visible {
+    display: block;
+}

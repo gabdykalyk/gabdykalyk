@@ -70,7 +70,9 @@ if ($(".text-slider").length == 1) {
     });
 } 
 
+let mobMenu = document.querySelector('.header-mob-menu')
 let ham = document.querySelector('.hamburger')
 ham.addEventListener('click', () => {
     ham.classList.toggle('is-active')
+    mobMenu.classList.toggle('visible')
 })
