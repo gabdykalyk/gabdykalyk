@@ -345,7 +345,8 @@ template {
       font-weight: 800;
       margin: 0; }
     .banner__title .banner__prof {
-      font-size: 32px; }
+      font-size: 32px;
+      font-weight: 700; }
   .banner__overlay {
     width: 50%;
     height: 100%;
@@ -640,5 +641,11 @@ a {
     opacity: 0; }
   100% {
     opacity: 1; } }
+.text-slider-items {
+  display: none; }
+
+.text-slider {
+  color: #3e64ff;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

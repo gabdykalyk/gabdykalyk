@@ -55,3 +55,17 @@ $(window).scroll(function () {
             .end().filter("[href='#" + id + "']").parent().addClass("active");
     }
 });
+
+if ($(".text-slider").length == 1) {
+
+    var typed_strings =
+        $(".text-slider-items").text();
+
+    var typed = new Typed(".text-slider", {
+        strings: typed_strings.split(", "),
+        typeSpeed: 70,
+        loop: true,
+        backDelay: 1500,
+        backSpeed: 30,
+    });
+} 
