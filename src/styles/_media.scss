@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+    .banner__header {
+        display: none;
+    }
+
+    .header {
+        display: none !important;
+    }
+
+    .banner .header-mob {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.header__mob-container {
+    display: flex;
+    justify-content: space-between;
+}
+

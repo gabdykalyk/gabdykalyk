@@ -69,3 +69,8 @@ if ($(".text-slider").length == 1) {
         backSpeed: 30,
     });
 } 
+
+let ham = document.querySelector('.hamburger')
+ham.addEventListener('click', () => {
+    ham.classList.toggle('is-active')
+})
