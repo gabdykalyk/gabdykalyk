@@ -383,6 +383,8 @@ template {
   font-weight: 700;
   min-width: 140px;
   display: inline-block; }
+.about__item {
+  display: none; }
 
 .resume {
   margin-top: 50px; }
@@ -606,7 +608,13 @@ template {
     padding-bottom: 10px; }
 
   .features__item-second {
-    margin-top: 3rem !important; } }
+    margin-top: 3rem !important; }
+
+  .about span:first-child {
+    min-width: 100px; }
+
+  .contacts-mob {
+    margin-top: 2rem !important; } }
 .header__mob-container {
   display: flex;
   justify-content: space-between; }
@@ -625,12 +633,13 @@ template {
 .visible {
   display: block; }
 
-.contacts-mob {
-  margin-top: 2rem !important; }
-
 @media (max-width: 767px) {
   .contacts-mob-second {
-    margin-top: 2rem !important; } }
+    margin-top: 2rem !important; }
+
+  .about__item {
+    width: 100%;
+    display: inline; } }
 @media (max-width: 576px) {
   .footer .footer__item {
     text-align: center; }

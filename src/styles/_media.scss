@@ -21,6 +21,14 @@
     .features__item-second {
         margin-top: 3rem!important;
     }
+
+    .about span:first-child {
+        min-width: 100px;
+    }
+
+    .contacts-mob {
+        margin-top: 2rem!important;
+    }
 }
 
 
@@ -51,13 +59,14 @@
     display: block;
 }
 
-.contacts-mob {
-    margin-top: 2rem!important;
-}
-
 @media (max-width: 767px) {
     .contacts-mob-second {
         margin-top: 2rem!important;
+    }
+
+    .about__item {
+        width: 100%;
+        display: inline;
     }
 }
 
