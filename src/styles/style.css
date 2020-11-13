@@ -622,13 +622,12 @@ template {
 .header-mob-menu {
   display: none; }
   .header-mob-menu .nav-mob ul {
+    z-index: 10;
     display: block;
     color: #ffffff;
     padding-top: 20px; }
     .header-mob-menu .nav-mob ul li {
       padding-bottom: 16px; }
-  .header-mob-menu a:hover {
-    background-color: red; }
 
 .visible {
   display: block; }
